@@ -26,8 +26,12 @@ npm install cypress
     "test": "cypress run"
  }
 
- npx cypress run
- npx cypress open
+*************************************************
+
+Comando para execução dos testes:
+
+npx cypress run
+npx cypress open
 
 *************************************************
 Plugins:
@@ -37,6 +41,9 @@ npm install --save-dev cypress-cucumber-preprocessor
 Descrição da configuração:
 
 https://www.npmjs.com/package/cypress-cucumber-preprocessor
+
+
+CONFIGURAÇÃO DO PLUGIN:
 
 cypress/plugins/index.js
 
@@ -63,6 +70,15 @@ package.json:
 Extensões:
 
 VS Code - Cuke Step Definition Generator
+
+
+**************************************************
+
+NOTA:
+
+Caso haja erro: Cypress command timeout of 4000ms exceeded.
+
+Limoar os hitóricos, caches e cookies do navegador.
 
 
 
