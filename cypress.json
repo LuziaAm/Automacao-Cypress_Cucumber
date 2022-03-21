@@ -1,0 +1,8 @@
+{
+    "baseUrl": "https://www.saucedemo.com/",
+    "viewportWidth": 1400,
+    "viewportHeight": 900,
+    "testFiles": "**/*.feature",
+    "video": false
+
+  }
